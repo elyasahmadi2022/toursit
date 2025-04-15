@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Siavash';
+    src: url('./font/Siavash.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Nazanin";
+    src: url('./font/Nazanin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url("./font/yekan/subset-YekanBakhFaNum-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url("./font//yekan/subset-YekanBakhFaNum-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url("./font/yekan/subset-YekanBakhFaNum-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "rokh";
+    src: url("./font/rokh/Rokh-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "rokh";
+    src: url("./font/rokh/Rokh-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "exo2";
+    src: url("./font/exo2/Exo2-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lalezar";
+    src: url('./font/Lalezar/Lalezar-Regular.ttf');
+    font-weight: 500;
+}
