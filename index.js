@@ -1,5 +1,5 @@
 let closeBtn = document.querySelector(".close-btn");
-let loginPopUp = document.querySelector(".container-d");
+let loginPopUp = document.querySelector(".login-display");
 let login = document.querySelectorAll(".login");
 let signupSection = document.querySelector(".signup-wrapper-container");
 let loginSection = document.querySelector(".login-wrapper-container");
