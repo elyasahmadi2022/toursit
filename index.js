@@ -1,6 +1,6 @@
 let closeBtn = document.querySelector(".close-btn");
 let loginPopUp = document.querySelector(".container-d");
-let login = document.getElementById("login");
+let login = document.querySelectorAll(".login");
 let signupSection = document.querySelector(".signup-wrapper-container");
 let loginSection = document.querySelector(".login-wrapper-container");
 let loginBtn = document.querySelector(".sw-btn1");
@@ -10,12 +10,15 @@ let loginSginupDisplay = document.querySelector("#login-sign-display");
 let isLogin = false;
 let isLoginOpen = false;
 let isSignupOpen = false;
-login.addEventListener("click", () => {
-  isLogin = true;
-  if (isLogin) {
-    loginPopUp.style.display = "block";
-  }
-});
+login.forEach((eleme)=>{
+  eleme.addEventListener("click", ()=>{
+
+    isLogin = true;
+    if (isLogin) {
+      loginPopUp.style.display = "block";
+    }
+  })
+})
 
 closeBtn.addEventListener("click", () => {
   if (isLogin) {
@@ -53,7 +56,6 @@ darkMode.addEventListener("click", () => {
   } else {
     darkMode.classList.add("dark");
   }
-  console.log("dark mode is clicked");
 });
 
 const dark_mode = document.querySelector(".dark-light-element1");
@@ -66,7 +68,6 @@ dark_mode.addEventListener("click", () => {
   } else {
     dark_mode.classList.add("dark");
   }
-
 });
 
 const navBars = document.querySelector(".phone-ipad-nav");
@@ -90,7 +91,4 @@ menuBar.addEventListener("click", () => {
     isMenuClicked = true;
     navBars.style.display = "block";
   }
-
-
-
 });

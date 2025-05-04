@@ -824,14 +824,6 @@
     }
 }
 
-.cities .cities-icon svg {
-    transition: all .5s ease-in-out;
-}
-
-.cities:hover .cities-icon svg {
-    transform: rotate(.5turn);
-    fill: red;
-}
 
 
 #RU:hover {
