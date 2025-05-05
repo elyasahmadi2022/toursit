@@ -750,7 +750,11 @@
     }
 
     .tours {
-        height: 50vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tours .tours-attractive-ills{
+        display: none;
     }
 
 
